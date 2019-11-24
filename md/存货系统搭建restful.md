@@ -178,3 +178,21 @@ https://www.teemlink.com:8443/svn/platform/projects/infinitus_ima
 ```
 
 此版本分支之前问过wander,是属于无极限存货1.4版本，但是下载来之后跑不起来，因此建议将shaw能跑的最新存货代码上传到此分支，统一svn管理，也为了以后其他人接触存货系统可以方便点
+
+# 四.请求pos拿取accesstoken遇到问题
+
+以下是浏览器请求的测试地址：
+
+```
+https://dsis-uat.infinitus-int.com/interface/restful/dapp/auth/getToken?appCode=imas_47e97127263fdbcd&appSecret=31bd328b0addc40eaed3d769ae9a1311
+```
+
+返回的json包体：
+
+```
+{"code":10022,"message":"Required Field is Missing"}
+```
+
+图片：
+
+![](https://raw.githubusercontent.com/sky5cai/picGoPic/master/img/20191124173837.png)
