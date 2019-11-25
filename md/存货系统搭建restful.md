@@ -36,6 +36,37 @@
 </beans>
 ```
 ### 3.在web.xml添加spring-mvc配置
+
+由struts2
+
+```xml
+	<filter-mapping>
+        <filter-name>struts2</filter-name>
+        <url-pattern>/*</url-pattern>
+        <dispatcher>REQUEST</dispatcher>  
+    	<dispatcher>FORWARD</dispatcher> 
+    </filter-mapping>
+```
+
+改成
+
+```xml
+	<filter-mapping>
+		<filter-name>struts2</filter-name>
+		<url-pattern>*.action</url-pattern>
+		<dispatcher>REQUEST</dispatcher>
+		<dispatcher>FORWARD</dispatcher>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>struts2</filter-name>
+		<url-pattern>*.jsp</url-pattern>
+		<dispatcher>REQUEST</dispatcher>
+		<dispatcher>FORWARD</dispatcher>
+	</filter-mapping>
+```
+
+添加：
+
 ```xml
 	<servlet-mapping>  
 	  <servlet-name>default</servlet-name>  
@@ -132,7 +163,7 @@ public class ConnectRestfulPutTest {
 		String response = null;
 		String url="http://localhost:6088/Z1IDS2L1IEM/interface/orders/34345534545/inventories/status";
 		JSONObject jsonObject = new JSONObject();
-		jsonObject.put("result", 0);
+		jsonObject.put("result", 0); 
 		jsonObject.put("message", "成功");
 		
 		String data=jsonObject.toString();
