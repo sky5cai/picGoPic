@@ -137,7 +137,7 @@ com.restful.service
 
 ![](https://raw.githubusercontent.com/sky5cai/picGoPic/master/img/20191124145526.png)
 
-# 二.用java请求对方put请求
+# 二.用java请求对方put请求例子
 
 以下demo的请求接口模仿了文档PTD20-POSIMAOrderResultAPI-111119-0235-6.pdf的接口写
 ![](https://raw.githubusercontent.com/sky5cai/picGoPic/master/img/20191124145552.png)
@@ -210,20 +210,166 @@ https://www.teemlink.com:8443/svn/platform/projects/infinitus_ima
 
 此版本分支之前问过wander,是属于无极限存货1.4版本，但是下载来之后跑不起来，因此建议将shaw能跑的最新存货代码上传到此分支，统一svn管理，也为了以后其他人接触存货系统可以方便点
 
-# 四.请求pos拿取accesstoken遇到问题
+# 四.请求pos接口测试用例
 
-以下是浏览器请求的测试地址：
+获取pos针对的accessToken的测试用例
 
+```java
+//获取accesstoken
+@Test
+public void testGetPosAccessToken(){
+    String response = null;
+    String accessToken = "";
+    String url="https://dsis-uat.infinitus-int.com/interface/restful/dapp/auth/getToken";
+
+    System.out.println("url: " + url);
+    try {
+        CloseableHttpClient httpclient = null;
+        CloseableHttpResponse httpresponse = null;
+        try {
+            httpclient = HttpClients.createDefault();
+            HttpGet httpGet = new HttpGet(url);
+            httpGet.addHeader("appCode", "imas_47e97127263fdbcd");
+            httpGet.addHeader("appSecret", "31bd328b0addc40eaed3d769ae9a1311");
+
+            httpresponse = httpclient.execute(httpGet);
+            response = EntityUtils
+                .toString(httpresponse.getEntity());
+            JSONObject jsonObject = JSONObject.fromObject(response.toString());
+            if(jsonObject.getInt("code")==0){
+                accessToken = jsonObject.getString("token");
+            }
+            System.out.println("response: " + response.toString());
+        } finally {
+            if (httpclient != null) {
+                httpclient.close();
+            }
+            if (httpresponse != null) {
+                httpresponse.close();
+            }
+        }
+    } catch (Exception e) {
+        e.printStackTrace();
+    }
+}
 ```
-https://dsis-uat.infinitus-int.com/interface/restful/dapp/auth/getToken?appCode=imas_47e97127263fdbcd&appSecret=31bd328b0addc40eaed3d769ae9a1311
+
+刷新accessToken(两小时需刷新一次)
+
+```java
+//更新asscesstoken
+@Test
+public void updateAccessToken(){
+    String response = null;
+    String accessToken = "";
+    String url="https://dsis-uat.infinitus-int.com/interface/restful/dapp/auth/refreshToken";
+    System.out.println("url: " + url);
+    try {
+        CloseableHttpClient httpclient = null;
+        CloseableHttpResponse httpresponse = null;
+        try {
+            httpclient = HttpClients.createDefault();
+            HttpGet httpGet = new HttpGet(url);
+            httpGet.addHeader("token", "78071b93f2314129ab9527efeb5179ac");
+            httpGet.addHeader("appCode", "imas_47e97127263fdbcd");
+            httpresponse = httpclient.execute(httpGet);
+            response = EntityUtils
+                .toString(httpresponse.getEntity());
+            JSONObject jsonObject = JSONObject.fromObject(response.toString());
+            if(jsonObject.getInt("code")==0){
+                accessToken =  jsonObject.getString("token");
+            }
+            System.out.println("response: " + response.toString());
+        } finally {
+            if (httpclient != null) {
+                httpclient.close();
+            }
+            if (httpresponse != null) {
+                httpresponse.close();
+            }
+        }
+    } catch (Exception e) {
+        e.printStackTrace();
+    }
+}
 ```
 
-返回的json包体：
+获取sign标志测试代码
 
+```java
+//获取sign标志
+public static String getSign(String uri, String appSecret, String timestamp,  String postBody) {
+    StringBuilder content = new StringBuilder();
+    content.append(uri);
+    content.append(appSecret);
+    content.append(timestamp);
+    if (postBody != null) {
+        content.append(postBody);
+    }
+    System.out.println("url-->"+uri);
+    System.out.println("appSecret-->"+appSecret);
+    System.out.println("postBody-->"+postBody);
+    System.out.println("content->"+content.toString());
+    return DigestUtils.sha256Hex(content.toString());
+}
+
+@Test
+public void getSignString(){
+    String sign = getSign("/interface/orders/SOGMKR1911250005/inventories/status", "31bd328b0addc40eaed3d769ae9a1311", String.valueOf(new Date().getTime()), "{\"result\":0,\"message\":\"成功\"}");
+    System.out.println("sign-->"+sign);
+}
 ```
-{"code":10022,"message":"Required Field is Missing"}
+
+推送订单状态到pos上测试代码
+
+```java
+//测试连接存货推送订单数据
+@Test
+public void testConnectRestFulPut(){
+    String response = null;
+    String url="https://dsis-uat.infinitus-int.com/interface/orders/SOGMKR1911250005/inventories/status";
+    JSONObject jsonObject = new JSONObject();
+    jsonObject.put("result", 0);
+    jsonObject.put("message", "成功");
+
+    String data=jsonObject.toString();
+    System.out.println("url: " + url);
+    System.out.println("request: " + data);
+    //获取getSign
+    String accessToken = "78071b93f2314129ab9527efeb5179ac";
+    String appSecret="31bd328b0addc40eaed3d769ae9a1311";
+    String timestamp = String.valueOf(new Date().getTime());
+    String postBody = jsonObject.toString();
+    String sign = getSign("/interface/orders/SOGMKR1911250005/inventories/status", appSecret, timestamp, postBody);
+    try {
+        CloseableHttpClient httpclient = null;
+        CloseableHttpResponse httpresponse = null;
+        try {
+            httpclient = HttpClients.createDefault();
+            HttpPut httppost = new HttpPut(url);
+            httppost.addHeader("token", accessToken);
+            httppost.addHeader("timestamp", timestamp);
+            httppost.addHeader("sign", sign);
+            StringEntity stringentity = new StringEntity(data,ContentType.create("application/json", "UTF-8"));
+            httppost.setEntity(stringentity);
+            httpresponse = httpclient.execute(httppost);
+            response = EntityUtils
+                .toString(httpresponse.getEntity());
+            System.out.println("response: " + response.toString());
+        } finally {
+            if (httpclient != null) {
+                httpclient.close();
+            }
+            if (httpresponse != null) {
+                httpresponse.close();
+            }
+        }
+    } catch (Exception e) {
+        e.printStackTrace();
+    }
+}
 ```
 
-图片：
+# 五.ima根pos接口整合
 
-![](https://raw.githubusercontent.com/sky5cai/picGoPic/master/img/20191124173837.png)
+待续...
