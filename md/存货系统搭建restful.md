@@ -551,7 +551,14 @@ public class PosAccessTokenJob extends Job {
 ```
 //PosAccessTokenJob任务执行
 Schedule.registerJob(new PosAccessTokenJob(),
-					PosConstant.ACCESSTOKEN_PEIROD,
+					10*1000,
 					PosConstant.ACCESSTOKEN_PEIROD);
+```
+
+请求接口https://dsis-uat.infinitus-int.com/interface/orders/SOGMKR1911250005/inventories/status
+拿去accessToken统一改成拿取：
+
+```java
+PosConstant.POS_ACCESSTOKEN
 ```
 
