@@ -372,4 +372,186 @@ public void testConnectRestFulPut(){
 
 # 五.ima根pos接口整合
 
-待续...
+存货系统两个小时内跟新accessToken整合
+
+在com.restful.model里建类PosConstant.java，用来放pos的常用变量
+
+```java
+package com.restful.model;
+
+/**
+ * pos的参数
+ *
+ */
+public class PosConstant {
+	//pos的accessToken
+	public static String POS_ACCESSTOKEN;
+	//pos的appCode
+	public static String APP_CODE = "imas_47e97127263fdbcd";
+	//pos的appSecret
+	public static String APP_SECRET = "31bd328b0addc40eaed3d769ae9a1311";
+	//拿去accessToken的url
+	public static String GET_ACCESSTOKEN_URL= "https://dsis-uat.infinitus-int.com/interface/restful/dapp/auth/getToken";
+	//跟新accesstoken的kurl
+	public static String UPDATE_ACCESSTOKEN_URL = "https://dsis-uat.infinitus-int.com/interface/restful/dapp/auth/refreshToken";
+	//跟新accesstoken的时间
+	public final static int ACCESSTOKEN_PEIROD = 60 * 60 * 1000; //1小时
+	
+	
+}
+```
+
+在com.restful下面建立util文件夹，新建类：PostUtil.java 存放工具方法
+
+```java
+package com.restful.util;
+
+import org.apache.http.client.methods.CloseableHttpResponse;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.impl.client.CloseableHttpClient;
+import org.apache.http.impl.client.HttpClients;
+import org.apache.http.util.EntityUtils;
+
+import com.restful.model.PosConstant;
+
+import net.sf.json.JSONObject;
+
+/**
+ * 工具类
+ *
+ */
+public class PosUtil {
+	
+	/**
+	 * 创建accesstoken
+	 * @param appCode 
+	 * @param appSecret
+	 * @return
+	 */
+	public static String getPosAccessToken(){
+		
+		String posAccessToken="";
+	    String response = null;
+	    String accessToken = "";
+	    String url=PosConstant.GET_ACCESSTOKEN_URL;
+
+//	    System.out.println("url: " + url);
+	    try {
+	        CloseableHttpClient httpclient = null;
+	        CloseableHttpResponse httpresponse = null;
+	        try {
+	            httpclient = HttpClients.createDefault();
+	            HttpGet httpGet = new HttpGet(url);
+	            httpGet.addHeader("appCode", PosConstant.APP_CODE);
+	            httpGet.addHeader("appSecret",PosConstant.APP_SECRET);
+
+	            httpresponse = httpclient.execute(httpGet);
+	            response = EntityUtils.toString(httpresponse.getEntity());
+	            JSONObject jsonObject = JSONObject.fromObject(response.toString());
+	            if(jsonObject.getInt("code")==0){
+	                accessToken = jsonObject.getString("token");
+	            }
+	            System.out.println("response: " + response.toString());
+	            posAccessToken = accessToken;
+	        } finally {
+	            if (httpclient != null) {
+	                httpclient.close();
+	            }
+	            if (httpresponse != null) {
+	                httpresponse.close();
+	            }
+	        }
+	    } catch (Exception e) {
+	        e.printStackTrace();
+	    }
+	    return posAccessToken;
+	}
+	/**
+	 * 更新accessToken
+	 * @param token
+	 * @return
+	 */
+	public static String updatePosAccessToken(String token){
+		String posAccessToken = "";
+		String response = null;
+	    String accessToken = "";
+	    String url=PosConstant.UPDATE_ACCESSTOKEN_URL;
+	    System.out.println("url: " + url);
+	    try {
+	        CloseableHttpClient httpclient = null;
+	        CloseableHttpResponse httpresponse = null;
+	        try {
+	            httpclient = HttpClients.createDefault();
+	            HttpGet httpGet = new HttpGet(url);
+	            httpGet.addHeader("token", token);
+	            httpGet.addHeader("appCode", PosConstant.APP_CODE);
+	            httpresponse = httpclient.execute(httpGet);
+	            response = EntityUtils
+	                .toString(httpresponse.getEntity());
+	            JSONObject jsonObject = JSONObject.fromObject(response.toString());
+	            if(jsonObject.getInt("code")==0){
+	                accessToken =  jsonObject.getString("token");
+	            }
+	            posAccessToken = accessToken;
+	            System.out.println("response: " + response.toString());
+	        } finally {
+	            if (httpclient != null) {
+	                httpclient.close();
+	            }
+	            if (httpresponse != null) {
+	                httpresponse.close();
+	            }
+	        }
+	    } catch (Exception e) {
+	        e.printStackTrace();
+	    }
+	    return posAccessToken;
+	}
+	
+}
+
+```
+
+新建类：PosAccessTokenJob.java 用来轮询执行更新accessToken
+
+```java
+package com.restful.util;
+import org.apache.log4j.Logger;
+import com.restful.model.PosConstant;
+import cn.myapps.util.StringUtil;
+import cn.myapps.util.timer.Job;
+
+public class PosAccessTokenJob extends Job {
+	
+	
+	public final static Logger LOG = Logger.getLogger(PosAccessTokenJob.class);
+
+	public void run() {
+		try {
+			//更新accessToken
+			String posAccessToken = PosConstant.POS_ACCESSTOKEN;
+			if(StringUtil.isBlank(posAccessToken)){
+				//为空，则请求创建accessToken
+				PosConstant.POS_ACCESSTOKEN = PosUtil.getPosAccessToken();
+			}else{
+				//不为空，则更新accessToken
+				PosUtil.updatePosAccessToken(PosConstant.POS_ACCESSTOKEN);
+			}
+			LOG.debug("********************* PosAccessTokenJob Job End ********************");
+		} catch (Exception e) {
+			LOG.error("PosAccessTokenJob Job Error: ", e);
+		}
+	}
+}
+
+```
+
+将PosAccessTokenJob的放进开机启动StartupListener.java
+
+```
+//PosAccessTokenJob任务执行
+Schedule.registerJob(new PosAccessTokenJob(),
+					PosConstant.ACCESSTOKEN_PEIROD,
+					PosConstant.ACCESSTOKEN_PEIROD);
+```
+
