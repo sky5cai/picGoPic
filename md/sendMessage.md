@@ -1,6 +1,6 @@
 # 微信自动发送信息脚本
 
-> 导读：此脚本的原理是控制电脑上的微信客户端，实现用脚本定位窗口，然后用脚本把内容复制到剪切版中，用脚本在定位的窗口中实现ctrl+v,模拟enter发送
+> 导读：此脚本的原理是控制电脑上的微信客户端，实现用脚本定位窗口(隐藏或者被覆盖也行)，然后用脚本把内容复制到剪切版中，用脚本在定位的窗口中实现ctrl+v,模拟enter发送
 >
 > 需要用的的python模块：
 >
@@ -85,10 +85,10 @@ def get_window(className, titleName):
 
 
 #######################发送过程=================
-# 查找微信窗口，如果最小化则还原（需要固定位置）
+
 
 def sendTaskLog():
-    # 开始发送文本
+    # 查找微信小窗口
     # win = get_window('ChatWnd', '文件传输助手')
     win = get_window('ChatWnd', '产品4.5协作')
     # 读取文本
@@ -119,5 +119,5 @@ except (KeyboardInterrupt, SystemExit):
 win = get_window('ChatWnd', '产品4.5协作')
 ```
 
-需以这样的形式开启小窗口，这样就能定位到了
+需以这样的形式开启小窗口(隐藏或者小窗口被覆盖也能定位到)，这样就能定位到了
 ![](https://raw.githubusercontent.com/sky5cai/picGoPic/master/img/20200117142404.png)
