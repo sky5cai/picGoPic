@@ -26,7 +26,7 @@
 import win32api, win32gui, win32con
 import win32clipboard as clipboard
 import time
-import requests
+# import requests
 from apscheduler.schedulers.blocking import BlockingScheduler
 
 
@@ -55,14 +55,14 @@ def txt_ctrl_v(txt_str):
     return
 
 
-def day_english():
-    # 获取金山词霸每日一句
-    url = 'http://open.iciba.com/dsapi'
-    r = requests.get(url)
-    content = r.json()['content']
-    note = r.json()['note']
-    print(content + note)
-    return content + note
+# def day_english():
+#     # 获取金山词霸每日一句
+#     url = 'http://open.iciba.com/dsapi'
+#     r = requests.get(url)
+#     content = r.json()['content']
+#     note = r.json()['note']
+#     print(content + note)
+#     return content + note
 
 
 def get_window(className, titleName):
@@ -86,7 +86,6 @@ def get_window(className, titleName):
 
 #######################发送过程=================
 
-
 def sendTaskLog():
     # 查找微信小窗口
     # win = get_window('ChatWnd', '文件传输助手')
@@ -108,8 +107,6 @@ try:
     scheduler.start()
 except (KeyboardInterrupt, SystemExit):
     pass
-
-
 
 ```
 
