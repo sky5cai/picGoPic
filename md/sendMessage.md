@@ -8,6 +8,12 @@
 >
 > APScheduler 实现定时发送
 
+### 教程
+
+```
+https://zhuanlan.zhihu.com/p/28605447
+```
+
 ### 1. 安装pyhon
 
 步骤：略
