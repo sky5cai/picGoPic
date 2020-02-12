@@ -8,8 +8,8 @@
       <change afterPath="$PROJECT_DIR$/src/test/algorithm/stack/sample/BackspaceCompare844.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/algorithm/stack/sample/MinStackTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/algorithm/stack/sample/NextLargerNumberTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/algorithm/stack/sample/RemoveDuplicates1047.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../算法/栈/简单/下一个更大元素-简单.md" beforeDir="false" afterPath="$PROJECT_DIR$/../算法/栈/简单/下一个更大元素-简单.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -49,15 +49,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/algorithm/stack/sample/MinStack.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/algorithm/stack/sample/MyStackByQueue.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="380">
@@ -83,16 +74,28 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/algorithm/stack/sample/BackspaceCompare844.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+            <state relative-caret-position="38">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#440#441#0" expanded="true" />
                 <element signature="e#472#473#0" expanded="true" />
                 <element signature="e#659#670#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/algorithm/stack/sample/RemoveDuplicates1047.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="25" column="46" lean-forward="true" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -160,6 +163,7 @@
         <option value="$PROJECT_DIR$/src/main/algorithm/stack/sample/NextLargerNumberArray.java" />
         <option value="$PROJECT_DIR$/src/test/algorithm/stack/sample/NextLargerNumberTest.java" />
         <option value="$PROJECT_DIR$/src/test/algorithm/stack/sample/BackspaceCompare844.java" />
+        <option value="$PROJECT_DIR$/src/test/algorithm/stack/sample/RemoveDuplicates1047.java" />
       </list>
     </option>
   </component>
@@ -281,7 +285,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BackspaceCompare844">
+  <component name="RunManager" selected="JUnit.RemoveDuplicates1047">
     <configuration name="BackspaceCompare844" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <extension name="coverage">
@@ -308,22 +312,6 @@
       <option name="PACKAGE_NAME" value="algorithm.stack.sample" />
       <option name="MAIN_CLASS_NAME" value="algorithm.stack.sample.BackspaceCompare844" />
       <option name="METHOD_NAME" value="testBackSpaceCompare" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MinStackTest.minStack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithm.stack.sample.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="algorithm.stack.sample" />
-      <option name="MAIN_CLASS_NAME" value="algorithm.stack.sample.MinStackTest" />
-      <option name="METHOD_NAME" value="minStack" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -361,13 +349,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RemoveDuplicates1047" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.stack.sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="algorithm.stack.sample" />
+      <option name="MAIN_CLASS_NAME" value="algorithm.stack.sample.RemoveDuplicates1047" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RemoveDuplicates1047" />
         <item itemvalue="JUnit.BackspaceCompare844" />
         <item itemvalue="JUnit.BackspaceCompare844.testBackSpaceCompare" />
         <item itemvalue="JUnit.NextLargerNumberTest.testNextLargerNumber" />
         <item itemvalue="JUnit.NextLargerNumberArray.testOne" />
-        <item itemvalue="JUnit.MinStackTest.minStack" />
       </list>
     </recent_temporary>
   </component>
@@ -385,7 +388,7 @@
       <workItem from="1581480017665" duration="324000" />
       <workItem from="1581480351346" duration="2855000" />
       <workItem from="1581489654641" duration="5935000" />
-      <workItem from="1581515440662" duration="1712000" />
+      <workItem from="1581515440662" duration="2886000" />
     </task>
     <task id="LOCAL-00001" summary="add algorithm">
       <created>1581482226849</created>
@@ -433,39 +436,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MinStackTest_minStack - 2020.02.12 at 16h 06m 16s.xml">
-      <configuration name="MinStackTest.minStack" configurationId="JUnit" />
+    <history-entry file="RemoveDuplicates1047 - 2020.02.12 at 22h 29m 20s.xml">
+      <configuration name="RemoveDuplicates1047" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MinStackTest_minStack - 2020.02.12 at 16h 07m 09s.xml">
-      <configuration name="MinStackTest.minStack" configurationId="JUnit" />
+    <history-entry file="RemoveDuplicates1047 - 2020.02.12 at 22h 29m 29s.xml">
+      <configuration name="RemoveDuplicates1047" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MinStackTest_minStack - 2020.02.12 at 16h 08m 26s.xml">
-      <configuration name="MinStackTest.minStack" configurationId="JUnit" />
+    <history-entry file="RemoveDuplicates1047 - 2020.02.12 at 22h 30m 02s.xml">
+      <configuration name="RemoveDuplicates1047" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NextLargerNumberTest_testNextLargerNumber - 2020.02.12 at 21h 52m 11s.xml">
-      <configuration name="NextLargerNumberTest.testNextLargerNumber" configurationId="JUnit" />
+    <history-entry file="RemoveDuplicates1047 - 2020.02.12 at 22h 31m 49s.xml">
+      <configuration name="RemoveDuplicates1047" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NextLargerNumberTest_testNextLargerNumber - 2020.02.12 at 22h 08m 29s.xml">
-      <configuration name="NextLargerNumberTest.testNextLargerNumber" configurationId="JUnit" />
+    <history-entry file="RemoveDuplicates1047 - 2020.02.12 at 22h 34m 32s.xml">
+      <configuration name="RemoveDuplicates1047" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NextLargerNumberTest_testNextLargerNumber - 2020.02.12 at 22h 09m 05s.xml">
-      <configuration name="NextLargerNumberTest.testNextLargerNumber" configurationId="JUnit" />
+    <history-entry file="RemoveDuplicates1047 - 2020.02.12 at 22h 35m 47s.xml">
+      <configuration name="RemoveDuplicates1047" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BackspaceCompare844_testBackSpaceCompare - 2020.02.12 at 22h 11m 48s.xml">
-      <configuration name="BackspaceCompare844.testBackSpaceCompare" configurationId="JUnit" />
+    <history-entry file="RemoveDuplicates1047 - 2020.02.12 at 22h 36m 16s.xml">
+      <configuration name="RemoveDuplicates1047" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BackspaceCompare844_testBackSpaceCompare - 2020.02.12 at 22h 12m 27s.xml">
-      <configuration name="BackspaceCompare844.testBackSpaceCompare" configurationId="JUnit" />
+    <history-entry file="RemoveDuplicates1047 - 2020.02.12 at 22h 36m 20s.xml">
+      <configuration name="RemoveDuplicates1047" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BackspaceCompare844_testBackSpaceCompare - 2020.02.12 at 22h 15m 11s.xml">
-      <configuration name="BackspaceCompare844.testBackSpaceCompare" configurationId="JUnit" />
+    <history-entry file="RemoveDuplicates1047 - 2020.02.12 at 22h 36m 34s.xml">
+      <configuration name="RemoveDuplicates1047" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BackspaceCompare844 - 2020.02.12 at 22h 18m 45s.xml">
-      <configuration name="BackspaceCompare844" configurationId="JUnit" />
+    <history-entry file="RemoveDuplicates1047 - 2020.02.12 at 22h 37m 40s.xml">
+      <configuration name="RemoveDuplicates1047" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11505000" />
+    <option name="totallyTimeSpent" value="12679000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="974" height="1057" extended-state="0" />
@@ -481,7 +484,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32925472" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39933258" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -530,6 +533,12 @@
           <line>8</line>
           <properties />
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/algorithm/stack/sample/RemoveDuplicates1047.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -638,13 +647,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/algorithm/stack/sample/BackspaceCompare844.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#440#441#0" expanded="true" />
             <element signature="e#472#473#0" expanded="true" />
             <element signature="e#659#670#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/algorithm/stack/sample/RemoveDuplicates1047.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="46" lean-forward="true" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
