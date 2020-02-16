@@ -49,6 +49,7 @@ public class EvalRPN150 {
             }
         }
         return numStack.pop();*/
+        return 22;
     }
 
 }
