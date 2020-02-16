@@ -1,34 +1,27 @@
-# [345. 反转字符串中的元音字母](https://leetcode-cn.com/problems/reverse-vowels-of-a-string/)
+package algorithm.string.sample;
 
-编写一个函数，以字符串作为输入，反转该字符串中的元音字母。
+import org.junit.Assert;
+import org.junit.Test;
 
-**示例 1:**
+import java.util.ArrayList;
+import java.util.List;
 
-```
-输入: "hello"
-输出: "holle"
-```
+public class ReverseVowels345 {
 
-**示例 2:**
+    @Test
+    public void tesTreverseVowels(){
+        String s = "hello";
+        s = reverseVowels(s);
+        Assert.assertEquals("holle",s);
+//        System.out.println(s);
 
-```
-输入: "leetcode"
-输出: "leotcede"
-```
+        String s2 ="leetcode";
+        s2 = reverseVowels(s2);
+//        System.out.println(s2);
+        Assert.assertEquals("leotcede",s2);
+//        Assert.assertEquals(58,number);
+    }
 
-**说明:**
-
-元音字母不包含字母"y"。
-
-思路：
-
-```
-双指针，从左到右取得第一个元音，在从右到左取得的第一个元音然后替换，如果left>right则退出循环
-```
-
-java
-
-```java
     private String reverseVowels(String s) {
         //原因字母map
         List<Character> list = new ArrayList<Character>();
@@ -84,16 +77,4 @@ java
 
         return sb.toString();
     }
-```
-
-
-
-资料出处：
-
-```
-作者：LeetCode
-链接：https://leetcode-cn.com/problems/implement-stack-using-queues/solution/yong-dui-lie-shi-xian-zhan-by-leetcode/
-来源：力扣（LeetCode）
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
-```
-
+}
