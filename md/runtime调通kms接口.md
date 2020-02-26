@@ -58,7 +58,7 @@ public String getAccessToken(HttpServletRequest request){
 
 ```js
 (function(){  
- 	 var request = $WEB.getParamsTable().getHttpRequest(); 
+     var request = $WEB.getParamsTable().getHttpRequest(); 
      var util = new Packages.cn.myapps.runtime.dynaform.document.DocumentUtil(); 
      var accessToken = util.getAccessToken(request); 
      var number = util.testOne(accessToken);
