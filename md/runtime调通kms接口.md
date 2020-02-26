@@ -1,6 +1,6 @@
 ## runtime调通kms接口
 
-主要通过accessToken可访问kms接口,现在工具里面拿取accessToken,以下为例子
+主要通过accessToken可访问kms接口,先在工具类里面拿取accessToken,以下为例子
 在documentUtil添加方法，根据request获取accessToken
 
 ```java
