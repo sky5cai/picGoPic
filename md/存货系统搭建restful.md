@@ -135,12 +135,12 @@ com.restful.service
 
 注意：放入生产的时候要注意spring-mvc的jar包是否齐全(lib包)，参考图
 
-![](https://raw.githubusercontent.com/sky5cai/picGoPic/master/img/20191124145526.png)
+![](https://i.loli.net/2020/03/03/2Odv6LIojgMbBpJ.png)
 
 # 二.用java请求对方put请求例子
 
 以下demo的请求接口模仿了文档PTD20-POSIMAOrderResultAPI-111119-0235-6.pdf的接口写
-![](https://raw.githubusercontent.com/sky5cai/picGoPic/master/img/20191124145552.png)
+![](https://i.loli.net/2020/03/03/CawKdBuU2rsNy6x.png)
 
 java代码如下：
 
