@@ -1,12 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/test/algorithm/string/sample/ReverseString344.java" line="9" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="01009cca-f9c0-45fb-a750-0b14e3528400" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/src/main/algorithm/stack/sample/MinStack.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/algorithm/stack/sample/MyStackByQueue.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/algorithm/stack/sample/NextLargerNumberArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/algorithm/stack/difficult/LargestRectangleArea84.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/algorithm/stack/difficult/Trap42.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/algorithm/stack/medium/DecodeAtIndex880.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/algorithm/stack/medium/EvalRPN150.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/algorithm/stack/medium/InorderTraversal144.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/algorithm/stack/medium/IsValid_stack1003.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/algorithm/stack/medium/MinAddToMakeValid921.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/algorithm/stack/medium/MinRemoveToMakeValid1249.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/algorithm/stack/medium/NextLargerNodes1019.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/algorithm/stack/medium/PreorderTraversal144.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/algorithm/stack/medium/RemoveDuplicates_stack1209.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/algorithm/stack/medium/ReverseParentheses1190.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/algorithm/stack/medium/ValidateStackSequences946.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/algorithm/stack/medium/ZigzagLevelOrder103.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/algorithm/stack/sample/BackspaceCompare844.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/algorithm/stack/sample/DailyTemperatures739.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/algorithm/stack/sample/MinStackTest.java" afterDir="false" />
@@ -15,7 +30,19 @@
       <change afterPath="$PROJECT_DIR$/src/test/algorithm/stack/sample/RemoveDuplicates1047.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/algorithm/stack/sample/RemoveOuterParentheses1021.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/algorithm/stack/sample/ScoreOfParentheses856.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/algorithm/string/sample/CanConstruct383.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/algorithm/string/sample/LengthOfLastWord58.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/algorithm/string/sample/LongestCommonPrefix14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/algorithm/string/sample/ReverseString344.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/algorithm/string/sample/ReverseVowels345.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/algorithm/string/sample/RomanToInt13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/algorithm/string/sample/StrStr28.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/algorithm/stack/medium/MinAddToMakeValid921.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/algorithm/stack/medium/MinAddToMakeValid921.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/algorithm/stack/sample/RemoveDuplicates1047.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/algorithm/stack/sample/RemoveDuplicates1047.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/algorithm/stack/sample/RemoveOuterParentheses1021.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/algorithm/stack/sample/RemoveOuterParentheses1021.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/algorithm/stack/sample/ScoreOfParentheses856.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/algorithm/stack/sample/ScoreOfParentheses856.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,23 +58,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/algorithm/stack/sample/NextGreaterElements503.java">
+        <entry file="file://$PROJECT_DIR$/src/test/algorithm/string/sample/RomanToInt13.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="16" column="51" lean-forward="true" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#521#530#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/algorithm/stack/sample/ValidParentheses20.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+            <state relative-caret-position="114">
+              <caret line="7" selection-start-line="7" selection-end-line="16" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -56,19 +70,70 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/algorithm/stack/medium/DecodeAtIndex880.java">
+        <entry file="file://$PROJECT_DIR$/src/test/algorithm/string/sample/LongestCommonPrefix14.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="44" column="47" lean-forward="true" selection-start-line="44" selection-start-column="47" selection-end-line="44" selection-end-column="47" />
+            <state relative-caret-position="114">
+              <caret line="7" selection-start-line="7" selection-end-line="13" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/algorithm/string/sample/StrStr28.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="798">
+              <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/algorithm/string/sample/LengthOfLastWord58.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="7" selection-start-line="7" selection-end-line="17" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/algorithm/string/sample/ReverseString344.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="608">
+              <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/algorithm/string/sample/ReverseVowels345.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="722">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/algorithm/stack/medium/MinAddToMakeValid921.java">
+        <entry file="file://$PROJECT_DIR$/src/test/algorithm/string/sample/CanConstruct383.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+            <state relative-caret-position="433">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -77,64 +142,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/algorithm/stack/sample/MinStack.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+            <state relative-caret-position="247">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/algorithm/stack/sample/MyStackByQueue.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runner/JUnitCore.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="2337">
+              <caret line="141" column="22" selection-start-line="141" selection-start-column="22" selection-end-line="141" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/algorithm/stack/sample/BackspaceCompare844.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/BlockJUnit4ClassRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-95">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/algorithm/stack/sample/NextLargerNumberArray.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/algorithm/stack/sample/DailyTemperatures739.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-              <folding>
-                <element signature="e#1026#1035#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/algorithm/stack/sample/MinStackTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="20" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="24" />
+            <state relative-caret-position="969">
+              <caret line="79" selection-start-line="79" selection-end-line="79" />
             </state>
           </provider>
         </entry>
@@ -180,14 +209,34 @@
         <option value="$PROJECT_DIR$/src/test/algorithm/stack/sample/ScoreOfParentheses856.java" />
         <option value="$PROJECT_DIR$/src/test/algorithm/stack/medium/DecodeAtIndex880.java" />
         <option value="$PROJECT_DIR$/src/test/algorithm/stack/medium/MinAddToMakeValid921.java" />
+        <option value="$PROJECT_DIR$/src/test/algorithm/stack/medium/ValidateStackSequences946.java" />
+        <option value="$PROJECT_DIR$/src/test/algorithm/stack/medium/IsValid_stack1003.java" />
+        <option value="$PROJECT_DIR$/src/test/algorithm/stack/medium/NextLargerNodes1019.java" />
+        <option value="$PROJECT_DIR$/src/test/algorithm/stack/medium/ReverseParentheses1190.java" />
+        <option value="$PROJECT_DIR$/src/test/algorithm/stack/medium/RemoveDuplicates_stack1209.java" />
+        <option value="$PROJECT_DIR$/src/test/algorithm/stack/medium/MinRemoveToMakeValid1249.java" />
+        <option value="$PROJECT_DIR$/src/test/algorithm/stack/medium/PreorderTraversal144.java" />
+        <option value="$PROJECT_DIR$/src/test/algorithm/stack/medium/InorderTraversal144.java" />
+        <option value="$PROJECT_DIR$/src/test/algorithm/stack/medium/ZigzagLevelOrder103.java" />
+        <option value="$PROJECT_DIR$/src/test/algorithm/stack/medium/EvalRPN150.java" />
+        <option value="$PROJECT_DIR$/src/test/algorithm/stack/medium/Trap42.java" />
+        <option value="$PROJECT_DIR$/src/test/algorithm/stack/difficult/Trap42.java" />
+        <option value="$PROJECT_DIR$/src/test/algorithm/stack/difficult/LargestRectangleArea84.java" />
+        <option value="$PROJECT_DIR$/src/test/algorithm/string/sample/RomanToInt13.java" />
+        <option value="$PROJECT_DIR$/src/test/algorithm/string/sample/LongestCommonPrefix14.java" />
+        <option value="$PROJECT_DIR$/src/test/algorithm/string/sample/StrStr28.java" />
+        <option value="$PROJECT_DIR$/src/test/algorithm/string/sample/LengthOfLastWord58.java" />
+        <option value="$PROJECT_DIR$/src/test/algorithm/string/sample/ReverseString344.java" />
+        <option value="$PROJECT_DIR$/src/test/algorithm/string/sample/ReverseVowels345.java" />
+        <option value="$PROJECT_DIR$/src/test/algorithm/string/sample/CanConstruct383.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="22" />
-    <option name="y" value="2" />
-    <option name="width" value="1089" />
-    <option name="height" value="1057" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1060" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -198,7 +247,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -269,6 +317,15 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="stack" type="462c0819:PsiDirectoryNode" />
+              <item name="difficult" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="stack" type="462c0819:PsiDirectoryNode" />
               <item name="medium" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -282,38 +339,109 @@
             </path>
             <path>
               <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="string" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="string" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
               <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="&lt; 1.7 &gt;" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
               <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
               <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lang" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="junit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="junit" type="462c0819:PsiDirectoryNode" />
+              <item name="internal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="junit" type="462c0819:PsiDirectoryNode" />
+              <item name="internal" type="462c0819:PsiDirectoryNode" />
+              <item name="runners" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="junit" type="462c0819:PsiDirectoryNode" />
+              <item name="internal" type="462c0819:PsiDirectoryNode" />
+              <item name="runners" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="junit" type="462c0819:PsiDirectoryNode" />
+              <item name="runner" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="junit" type="462c0819:PsiDirectoryNode" />
+              <item name="runners" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -321,14 +449,22 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/algorithm/stack/medium" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="algorithm.string.sample" />
       <recent name="algorithm.stack.medium" />
       <recent name="algorithm.stack.sample" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\github\picGoPic\picGoPic\picGoPic\md\algorithm\src\test\algorithm\stack\medium" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -343,79 +479,79 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MinAddToMakeValid921">
-    <configuration name="DecodeAtIndex880" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ReverseVowels345.tesTreverseVowels">
+    <configuration name="LengthOfLastWord58" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.stack.medium.*" />
+          <option name="PATTERN" value="algorithm.string.sample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="algorithm.stack.medium" />
-      <option name="MAIN_CLASS_NAME" value="algorithm.stack.medium.DecodeAtIndex880" />
+      <option name="PACKAGE_NAME" value="algorithm.string.sample" />
+      <option name="MAIN_CLASS_NAME" value="algorithm.string.sample.LengthOfLastWord58" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinAddToMakeValid921" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ReverseString344" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.stack.medium.*" />
+          <option name="PATTERN" value="algorithm.string.sample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="algorithm.stack.medium" />
-      <option name="MAIN_CLASS_NAME" value="algorithm.stack.medium.MinAddToMakeValid921" />
+      <option name="PACKAGE_NAME" value="algorithm.string.sample" />
+      <option name="MAIN_CLASS_NAME" value="algorithm.string.sample.ReverseString344" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinAddToMakeValid921.testMinAddToMakeValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ReverseString344.testRomanToInt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.stack.medium.*" />
+          <option name="PATTERN" value="algorithm.string.sample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="algorithm.stack.medium" />
-      <option name="MAIN_CLASS_NAME" value="algorithm.stack.medium.MinAddToMakeValid921" />
-      <option name="METHOD_NAME" value="testMinAddToMakeValid" />
+      <option name="PACKAGE_NAME" value="algorithm.string.sample" />
+      <option name="MAIN_CLASS_NAME" value="algorithm.string.sample.ReverseString344" />
+      <option name="METHOD_NAME" value="testRomanToInt" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScoreOfParentheses856" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ReverseVowels345" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.stack.sample.*" />
+          <option name="PATTERN" value="algorithm.string.sample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="algorithm.stack.sample" />
-      <option name="MAIN_CLASS_NAME" value="algorithm.stack.sample.ScoreOfParentheses856" />
+      <option name="PACKAGE_NAME" value="algorithm.string.sample" />
+      <option name="MAIN_CLASS_NAME" value="algorithm.string.sample.ReverseVowels345" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScoreOfParentheses856.testScoreOfParentheses" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ReverseVowels345.tesTreverseVowels" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.stack.sample.*" />
+          <option name="PATTERN" value="algorithm.string.sample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="algorithm.stack.sample" />
-      <option name="MAIN_CLASS_NAME" value="algorithm.stack.sample.ScoreOfParentheses856" />
-      <option name="METHOD_NAME" value="testScoreOfParentheses" />
+      <option name="PACKAGE_NAME" value="algorithm.string.sample" />
+      <option name="MAIN_CLASS_NAME" value="algorithm.string.sample.ReverseVowels345" />
+      <option name="METHOD_NAME" value="tesTreverseVowels" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -423,11 +559,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MinAddToMakeValid921" />
-        <item itemvalue="JUnit.MinAddToMakeValid921.testMinAddToMakeValid" />
-        <item itemvalue="JUnit.DecodeAtIndex880" />
-        <item itemvalue="JUnit.ScoreOfParentheses856.testScoreOfParentheses" />
-        <item itemvalue="JUnit.ScoreOfParentheses856" />
+        <item itemvalue="JUnit.ReverseVowels345.tesTreverseVowels" />
+        <item itemvalue="JUnit.ReverseVowels345" />
+        <item itemvalue="JUnit.ReverseString344.testRomanToInt" />
+        <item itemvalue="JUnit.ReverseString344" />
+        <item itemvalue="JUnit.LengthOfLastWord58" />
       </list>
     </recent_temporary>
   </component>
@@ -445,7 +581,10 @@
       <workItem from="1581480017665" duration="324000" />
       <workItem from="1581480351346" duration="2855000" />
       <workItem from="1581489654641" duration="5935000" />
-      <workItem from="1581515440662" duration="13320000" />
+      <workItem from="1581515440662" duration="40353000" />
+      <workItem from="1581846808446" duration="7000000" />
+      <workItem from="1581901681295" duration="42000" />
+      <workItem from="1582087604645" duration="1781000" />
     </task>
     <task id="LOCAL-00001" summary="add algorithm">
       <created>1581482226849</created>
@@ -493,45 +632,45 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DecodeAtIndex880 - 2020.02.13 at 16h 57m 13s.xml">
-      <configuration name="DecodeAtIndex880" configurationId="JUnit" />
+    <history-entry file="ReverseVowels345 - 2020.02.16 at 21h 39m 03s.xml">
+      <configuration name="ReverseVowels345" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DecodeAtIndex880 - 2020.02.13 at 16h 58m 43s.xml">
-      <configuration name="DecodeAtIndex880" configurationId="JUnit" />
+    <history-entry file="ReverseVowels345 - 2020.02.16 at 21h 40m 28s.xml">
+      <configuration name="ReverseVowels345" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DecodeAtIndex880 - 2020.02.13 at 17h 02m 17s.xml">
-      <configuration name="DecodeAtIndex880" configurationId="JUnit" />
+    <history-entry file="ReverseVowels345 - 2020.02.16 at 21h 40m 33s.xml">
+      <configuration name="ReverseVowels345" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DecodeAtIndex880 - 2020.02.13 at 17h 03m 43s.xml">
-      <configuration name="DecodeAtIndex880" configurationId="JUnit" />
+    <history-entry file="ReverseVowels345_tesTreverseVowels - 2020.02.16 at 21h 40m 46s.xml">
+      <configuration name="ReverseVowels345.tesTreverseVowels" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DecodeAtIndex880 - 2020.02.13 at 17h 08m 36s.xml">
-      <configuration name="DecodeAtIndex880" configurationId="JUnit" />
+    <history-entry file="ReverseVowels345 - 2020.02.16 at 21h 41m 50s.xml">
+      <configuration name="ReverseVowels345" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DecodeAtIndex880 - 2020.02.13 at 17h 08m 41s.xml">
-      <configuration name="DecodeAtIndex880" configurationId="JUnit" />
+    <history-entry file="ReverseVowels345 - 2020.02.16 at 21h 42m 13s.xml">
+      <configuration name="ReverseVowels345" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DecodeAtIndex880 - 2020.02.13 at 17h 08m 56s.xml">
-      <configuration name="DecodeAtIndex880" configurationId="JUnit" />
+    <history-entry file="ReverseVowels345 - 2020.02.16 at 21h 44m 34s.xml">
+      <configuration name="ReverseVowels345" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DecodeAtIndex880 - 2020.02.13 at 17h 11m 27s.xml">
-      <configuration name="DecodeAtIndex880" configurationId="JUnit" />
+    <history-entry file="ReverseVowels345 - 2020.02.16 at 21h 47m 13s.xml">
+      <configuration name="ReverseVowels345" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MinAddToMakeValid921 - 2020.02.13 at 17h 21m 02s.xml">
-      <configuration name="MinAddToMakeValid921" configurationId="JUnit" />
+    <history-entry file="ReverseVowels345 - 2020.02.16 at 21h 47m 17s.xml">
+      <configuration name="ReverseVowels345" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MinAddToMakeValid921_testMinAddToMakeValid - 2020.02.13 at 17h 21m 08s.xml">
-      <configuration name="MinAddToMakeValid921.testMinAddToMakeValid" configurationId="JUnit" />
+    <history-entry file="ReverseVowels345_tesTreverseVowels - 2020.02.16 at 21h 47m 28s.xml">
+      <configuration name="ReverseVowels345.tesTreverseVowels" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23113000" />
+    <option name="totallyTimeSpent" value="58969000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="22" y="2" width="1089" height="1057" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.4373178" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25201073" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -540,8 +679,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3214683" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39377084" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34927535" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38709676" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -550,7 +689,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32480535" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32035595" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -621,25 +760,107 @@
           <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/algorithm/stack/medium/MinAddToMakeValid921.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/algorithm/stack/medium/NextLargerNodes1019.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/algorithm/stack/medium/NextLargerNodes1019.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/algorithm/stack/medium/RemoveDuplicates_stack1209.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/algorithm/stack/medium/RemoveDuplicates_stack1209.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/algorithm/stack/medium/MinRemoveToMakeValid1249.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/algorithm/stack/medium/MinRemoveToMakeValid1249.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/algorithm/stack/difficult/LargestRectangleArea84.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/algorithm/string/sample/LongestCommonPrefix14.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/algorithm/string/sample/StrStr28.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/algorithm/string/sample/LengthOfLastWord58.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/algorithm/string/sample/ReverseString344.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/algorithm/string/sample/ReverseString344.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/algorithm/string/sample/ReverseVowels345.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/algorithm/string/sample/ReverseVowels345.java</url>
+          <line>55</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
-        <watch expression="Integer.valueOf(String.valueOf(c))" />
-        <watch expression="Character.toString(sb.charAt(k))" />
-        <watch expression="c - '0'" />
-        <watch expression=" c - '0'" />
-        <watch expression="size /= c - '0'" />
+        <watch expression="stack.pop()" />
+        <watch expression="minheight*(j-i+1)" />
+        <watch expression=" heights[stack.peek()] &gt;= heights[i]" />
       </configuration>
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/components/Layout.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/pages/About.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/pages/Error404.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/pages/Index.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/pages/Login.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/App.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/algorithm/components/Layout.tml" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/algorithm/pages/About.tml" />
     <entry file="file://$PROJECT_DIR$/build.gradle" />
@@ -672,13 +893,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -728,29 +942,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/algorithm/stack/sample/ScoreOfParentheses856.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
           <caret line="31" column="46" lean-forward="true" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
           <folding>
             <element signature="e#862#871#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/algorithm/stack/sample/BackspaceCompare844.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-95">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -783,10 +980,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/algorithm/stack/sample/ValidParentheses20.java">
+    <entry file="file://$PROJECT_DIR$/src/test/algorithm/stack/sample/BackspaceCompare844.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+        <state relative-caret-position="152">
+          <caret line="11" selection-start-line="11" selection-end-line="22" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -817,6 +1014,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/algorithm/stack/sample/ValidParentheses20.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/algorithm/stack/medium/DecodeAtIndex880.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -824,10 +1031,260 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/algorithm/stack/medium/IsValid_stack1003.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#414#425#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/algorithm/stack/medium/RemoveDuplicates_stack1209.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#424#435#0" expanded="true" />
+            <element signature="e#482#491#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/jdk1.8.0_65/jdk1.8.0_65/src.zip!/java/util/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="83" column="14" selection-start-line="83" selection-start-column="14" selection-end-line="83" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/algorithm/stack/medium/PreorderTraversal144.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#734#744#0" expanded="true" />
+            <element signature="e#827#836#0" expanded="true" />
+            <element signature="e#168#169#0" expanded="true" />
+            <element signature="e#191#192#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/algorithm/stack/medium/ValidateStackSequences946.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#700#709#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/algorithm/stack/medium/ZigzagLevelOrder103.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#906#921#0" expanded="true" />
+            <element signature="e#970#980#0" expanded="true" />
+            <element signature="e#1040#1050#0" expanded="true" />
+            <element signature="e#1211#1220#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/algorithm/stack/medium/InorderTraversal144.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="11" selection-start-line="11" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="e#747#757#0" expanded="true" />
+            <element signature="e#812#821#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/algorithm/stack/medium/NextLargerNodes1019.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#928#937#0" expanded="true" />
+            <element signature="e#1417#1418#0" expanded="true" />
+            <element signature="e#1438#1439#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/algorithm/stack/medium/MinRemoveToMakeValid1249.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#519#528#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/algorithm/stack/medium/MinAddToMakeValid921.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+        <state relative-caret-position="133">
+          <caret line="10" selection-start-line="10" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/algorithm/stack/medium/EvalRPN150.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="12" selection-start-line="12" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/algorithm/stack/medium/ReverseParentheses1190.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" selection-start-line="9" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/algorithm/stack/difficult/Trap42.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/algorithm/stack/difficult/LargestRectangleArea84.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" selection-start-line="9" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/ParentRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4522">
+          <caret line="286" selection-start-line="286" selection-end-line="286" />
+          <folding>
+            <element signature="e#2922#2923#0" expanded="true" />
+            <element signature="e#2966#2967#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/algorithm/string/sample/RomanToInt13.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="7" selection-start-line="7" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/algorithm/string/sample/LongestCommonPrefix14.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="7" selection-start-line="7" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/algorithm/string/sample/StrStr28.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/algorithm/string/sample/LengthOfLastWord58.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="7" selection-start-line="7" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/algorithm/string/sample/ReverseString344.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/algorithm/string/sample/ReverseVowels345.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runner/JUnitCore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2337">
+          <caret line="141" column="22" selection-start-line="141" selection-start-column="22" selection-end-line="141" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/BlockJUnit4ClassRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/algorithm/string/sample/CanConstruct383.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -837,9 +1294,81 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>algorithm</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: junit:junit:4.12</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
