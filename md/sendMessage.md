@@ -24,7 +24,7 @@ https://zhuanlan.zhihu.com/p/28605447
 
 ### 3. pycharm安装模块
 
-![](https://raw.githubusercontent.com/sky5cai/picGoPic/master/img/20200117142030.png)
+![](https://i.loli.net/2020/03/03/fPmrN9RjGtE1vJQ.png)
 
 ### 4.新建python类编写脚本
 
@@ -123,4 +123,4 @@ win = get_window('ChatWnd', '产品4.5协作')
 ```
 
 需以这样的形式开启小窗口(隐藏或者小窗口被覆盖也能定位到)，这样就能定位到了
-![](https://raw.githubusercontent.com/sky5cai/picGoPic/master/img/20200117142404.png)
+![](https://i.loli.net/2020/03/03/B12ouWMCcQZbYEA.png)
