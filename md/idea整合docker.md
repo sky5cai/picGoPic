@@ -42,11 +42,128 @@ ping的通界面
 
 ## idea安装docker插件
 
+配置idea与docker远程连接图
+
+![](https://i.loli.net/2020/03/07/CewRFM3rTWX7bzQ.png)
+
+idea先配置个简单springboot及测试代码环境
+
+```java
+@RestController
+public class OneController {
+    @GetMapping("/hello")
+    public String helloWorld(){
+        return "hello,world";
+    }
+}
+```
+
+本地可启动访问
+
+![](https://i.loli.net/2020/03/07/7skLveAYbGHEz5l.png)
+
+pom.xml配置如下：
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.0.5.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+    <groupId>com.example</groupId>
+    <artifactId>demo</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>springhibernate5</name>
+    <description>Demo project for Spring Boot</description>
+
+    <properties>
+        <java.version>1.8</java.version>
+        <docker.image.prefix>demo</docker.image.prefix>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+            <plugin>
+            <groupId>com.spotify</groupId>
+            <artifactId>docker-maven-plugin</artifactId>
+            <version>1.0.0</version>
+            <configuration>
+                <imageName>${docker.image.prefix}/${project.artifactId}</imageName>
+                <dockerDirectory></dockerDirectory>
+                <resources>
+                    <resource>
+                        <targetPath>/</targetPath>
+                        <directory>${project.build.directory}</directory>
+                        <include>${project.build.finalName}.jar</include>
+                    </resource>
+                </resources>
+            </configuration>
+        </plugin>
+        </plugins>
+    </build>
+
+</project>
+
+```
+
+创建dockfile文件
+
+![](https://i.loli.net/2020/03/07/pNUymEgsaM7hXlC.png)
+
+编写dockfile
+
+```dockerfile
+#指定基础镜像，在其上进行定制
+FROM java:8
+
+#维护者信息
+MAINTAINER cqd
+
+#这里的 /tmp 目录就会在运行时自动挂载为匿名卷，任何向 /tmp 中写入的信息都不会记录进容器存储层
+VOLUME /tmp
+
+#复制上下文目录下的target/demo-1.0.0.jar 到容器里
+COPY target/demo-0.0.1-SNAPSHOT.jar  docker-0.0.1.jar
+
+#bash方式执行，使demo-1.0.0.jar可访问
+#RUN新建立一层，在其上执行这些命令，执行结束后， commit 这一层的修改，构成新的镜像。
+RUN bash -c "touch /docker-0.0.1.jar"
+
+#声明运行时容器提供服务端口，这只是一个声明，在运行时并不会因为这个声明应用就会开启这个端口的服务
+EXPOSE 8086
+
+#指定容器启动程序及参数   <ENTRYPOINT> "<CMD>"
+ENTRYPOINT ["java","-jar","docker-0.0.1.jar"]
+
+```
+
 
 
 ## 设置idea部署
 
 
+
+
+
+![](https://i.loli.net/2020/03/07/zepfgASqnYZURjs.png)
+
+![](https://i.loli.net/2020/03/07/LfZvk71syTBeAUG.png)
 
 
 
