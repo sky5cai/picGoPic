@@ -2,7 +2,7 @@
 
 > docker是很有用的工具，结合idea部署到docker是很好用的，加上现在很多项目是发布到linux上面，docker是基于go语言开发，非常适合在linux上运行，因此此篇文章记录安装docker，及部署简单项目的说明，以此作下记录，环境基于uos的linux版本，项目上先以简单的项目为准，然后在使用南京km作为测试
 
-#### 安装docker
+## 安装docker
 
 shell脚本
 
@@ -12,7 +12,7 @@ shell脚本
 $ curl -sSL https://get.docker.com/ | sh
 ```
 
-#### 配置docker远程连接及ping通
+## 配置docker远程连接及ping通
 
 ```
 [root@izwz9eftauv7x69f5jvi96z docker]# vim /usr/lib/systemd/system/docker.service
@@ -40,17 +40,17 @@ ping的通界面
 
 
 
-#### idea安装docker插件
+## idea安装docker插件
 
 
 
-#### 设置idea部署
+## 设置idea部署
 
 
 
 
 
-#### other
+## other
 
 参考资料来源网址
 
