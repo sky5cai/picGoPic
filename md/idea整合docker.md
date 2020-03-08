@@ -159,13 +159,35 @@ ENTRYPOINT ["java","-jar","docker-0.0.1.jar"]
 
 
 
+![](https://i.loli.net/2020/03/08/3wUEIJyngmB9Apx.png)
+
+docker build命令后成功的黑窗口截图
+
+![](https://i.loli.net/2020/03/08/uEGpkFHBOlnqIYj.png)
 
 
-![](https://i.loli.net/2020/03/07/zepfgASqnYZURjs.png)
+
+创建容器
+
+![](https://i.loli.net/2020/03/08/FyojA3pPGRtXnUx.png)
+
+![1583681006990](C:\Users\skycai\AppData\Roaming\Typora\typora-user-images\1583681006990.png)
+
+command preview:
+
+```
+docker run --name hello -d -p 8086 demo/demo:latest 
+```
+
+创建容器成功
+
+![](https://i.loli.net/2020/03/08/mwCIrY1JLgXcQM5.png)
+
+浏览器访问
 
 ![](https://i.loli.net/2020/03/07/LfZvk71syTBeAUG.png)
 
-
+.......(未完待续，如何更新docker镜像)
 
 ## other
 
@@ -176,6 +198,10 @@ ENTRYPOINT ["java","-jar","docker-0.0.1.jar"]
 https://zhuanlan.zhihu.com/p/26418829
 配置远程
 https://blog.csdn.net/caiqiandu/article/details/90299453
+写的挺好的
+http://xuewei.world:8000/2020/02/13/idea集成docker的快捷部署/
+挺像的
+https://www.cnblogs.com/lywJ/p/10870780.html
 
 ```
 
