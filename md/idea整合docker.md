@@ -172,7 +172,7 @@ docker build命令后成功的黑窗口截图
 
 ![](https://i.loli.net/2020/03/08/FyojA3pPGRtXnUx.png)
 
-![1583681006990](C:\Users\skycai\AppData\Roaming\Typora\typora-user-images\1583681006990.png)
+![](https://i.loli.net/2020/03/08/BtXPOJhxk8IowDs.png)
 
 command preview:
 
