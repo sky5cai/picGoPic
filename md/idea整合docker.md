@@ -192,12 +192,12 @@ docker build命令后成功的黑窗口截图
 
 ![](https://i.loli.net/2020/03/08/FyojA3pPGRtXnUx.png)
 
-![](https://i.loli.net/2020/03/08/BtXPOJhxk8IowDs.png)
+![](https://i.loli.net/2020/03/15/6G5CfZdlvWyRYXO.png)
 
 command preview:
 
 ```
-docker run --name hello -d -p 8086 demo/demo:latest 
+docker run --name hello -d -p 8086:8086 demo/demo:latest 
 ```
 
 创建容器成功
