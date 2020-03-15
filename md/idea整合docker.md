@@ -38,6 +38,14 @@ ping的通界面
 
 ![](https://i.loli.net/2020/03/07/PolQgTrkLEZ9N4n.png)
 
+如果ping不通，要开启防火墙
+
+```linu
+firewall-cmd --add-port=2375/tcp --permanent
+firewall-cmd --reload
+firewall-cmd --zone=public --list-ports
+```
+
 
 
 ## idea安装docker插件
