@@ -56,6 +56,16 @@ firewall-cmd --zone=public --list-ports
 
 ![](https://i.loli.net/2020/03/07/CewRFM3rTWX7bzQ.png)
 
+![](https://i.loli.net/2020/03/15/je4RO8Cl3wuiPWJ.png)
+
+镜像服务器地址：
+
+```
+https://35lfw8u6.mirror.aliyuncs.com
+```
+
+
+
 idea先配置个简单springboot及测试代码环境
 
 ```java
