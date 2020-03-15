@@ -46,7 +46,9 @@ firewall-cmd --reload
 firewall-cmd --zone=public --list-ports
 ```
 
+如果是阿里云，则添加安全规则
 
+![](https://i.loli.net/2020/03/15/xNdzs85IafWJDMB.png)
 
 ## idea安装docker插件
 
